@@ -18,15 +18,15 @@ Feature:
     And match response.id == '<id>'
 
     Examples:
-      | id |
-      | -1 |
-      | 1  |
-      | 2  |
-      | 3  |
-      | 4  |
-      | 5  |
-      | 10 |
-      | 99 |
+      | id                           |
+      | -1                           |
+      | 1                            |
+      | 2                            |
+      | 3                            |
+      | 4                            |
+      | 5                            |
+      | 10                           |
+      | 99                           |
       | 9999999999999999999999999999 |
 
   Scenario: POST /books/{id} unsuccessful when book exists

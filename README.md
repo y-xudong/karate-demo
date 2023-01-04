@@ -1,5 +1,5 @@
 # karate-demo
-This repository is for the material for a karate introduction session. 
+This repository is the material for a karate introduction session. 
 
 ## How to run
 
